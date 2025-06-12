@@ -20,4 +20,7 @@ class ProductViewModel extends ChangeNotifier{
     _items.clear();
     notifyListeners(); 
   }
+  double getCartTotal(){
+    return _items.fold(0, (previousvalue,item)=>previousvalue+item.price);
+  }
 }

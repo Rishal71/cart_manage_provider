@@ -7,4 +7,9 @@ final List<Product> productItems = [
   Product(id: 1, name: 'Wireless Earbuds', price: 129.9, color: Colors.green),
   Product(id: 1, name: 'Smartwatch', price: 199.99, color: Colors.blue),
   Product(id: 1, name: 'Electronics', price: 129.9, color: Colors.orange),
+  Product(id: 1, name: '4K TV', price: 799.9, color: Colors.purple),
+  Product(id: 1, name: 'Camera Drone', price: 249.9, color: Colors.deepOrange),
+  Product(id: 1, name: 'Fitness Tracker', price: 99.9, color: Colors.cyan),
+  Product(id: 1, name: 'Gaming Console', price: 899.9, color: Colors.deepPurple),
+  Product(id: 1, name: 'Bluetooth Speaker', price: 569.9, color: Colors.pinkAccent),
 ];
